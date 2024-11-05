@@ -2,8 +2,8 @@
 spring:
   datasource:
     driver-class-name: org.postgresql.Driver
-    username: postgres
-    password: root
+    username: root
+    password: Abcd1234
     url: jdbc:postgresql://prd-db.c3q2gmswshou.ap-northeast-1.rds.amazonaws.com/postgres
     platform: postgres
     initialization-mode: always
