@@ -7,12 +7,12 @@ files:
     destination: /opt/batch
 permission:
   - object: /opt/batch
-   pattern: "*.sh"
-   owner: root
-   group: root 
-   mode: 755
-   type:
-     - file 
+    pattern: "*.sh"
+    owner: root
+    group: root 
+    mode: 755
+    type:
+      - file 
 file_exists_behavior: OVERWRITE
 hooks:
   AfterInstall:
